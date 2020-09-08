@@ -33,6 +33,6 @@ uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编�
 ### uniapp和原生小程序对比有什么优点？  
 1.一套代码可自动打包发布至多个平台，开发效率大大提高；  
 2.使用vue.js开发语言，学习成本降低；  
-3.uniapp小程序开发流程基本与原生小程序开发无异，uniapp开发工具内置多种优化手段，如自动合并`this.setData()`、分包加载、分包预下载、H5摇树优化、代码自动混淆等；  
+3.uniapp小程序开发流程基本与原生小程序开发无异，uniapp开发工具内置多种优化手段，如自动合并`this.setData()`、分包加载、分包预下载、H5摇树优化、代码自动混淆等 参考文档：[官方文档（优化建议）](https://uniapp.dcloud.io/performance)    
 4.uniapp有自己的插件市场，开发者可自行根据项目需求进行插件导入；[uniapp官方插件市场](https://ext.dcloud.net.cn/)   
 5.uniapp可使用差异化编译，通过`#ifdef`、`#ifndef`条件编译进行各平台个性化实现 参考文档： [官方文档（条件编译）](https://uniapp.dcloud.io/platform)  
