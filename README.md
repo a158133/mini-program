@@ -1,3 +1,4 @@
+## 原生小程序 
 ### 微信小程序简述  
 微信小程序，小程序的一种，英文名Wechat Mini Program，是一种不需要下载安装即可使用的应用，它实现了应用“触手可及”的梦想，用户扫一扫或搜一下即可打开应用。 
 ***
@@ -24,5 +25,14 @@ ps:习惯用less预渲染的同学可以在vscode插件库搜索easy less插件�
   A：和vue项目一样通过npm引入，须在微信开发者工具-详情-本地设置中开启“使用npm模块”选项，一般本人使用的是vantUI组件库，更多组件根据项目需求可自行度娘。[小程序引入组件库（vant官方文档）](https://youzan.github.io/vant-weapp/#/quickstart#an-zhuang)  
 4.Q：小程序可以在wxml内使用js语法吗？  
   A：具体请参考[wxs官方文档](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxs/)，wxs并非js语言，他是小程序的一套脚本语言，部分js功能不能在wxs中使用，如es6语法，时间函数等。  
-  
- 
+***
+## uniapp
+### uniapp多端开发工具简述  
+uni-app 是一个使用 Vue.js 开发所有前端应用的框架，开发者编写一套代码，可发布到iOS、Android、H5、以及各种小程序（微信/支付宝/百度/头条/QQ/钉钉/淘宝）、快应用等多个平台。  
+***
+### uniapp和原生小程序对比有什么优点？  
+1.一套代码可自动打包发布至多个平台，开发效率大大提高；  
+2.使用vue.js开发语言，学习成本降低；  
+3.uniapp小程序开发流程基本与原生小程序开发无异，uniapp开发工具内置多种优化手段，如自动合并`this.setData()`、分包加载、分包预下载、H5摇树优化、代码自动混淆等；  
+4.uniapp有自己的插件市场，开发者可自行根据项目需求进行插件导入；[uniapp官方插件市场](https://ext.dcloud.net.cn/)   
+5.uniapp可使用差异化编译，通过`#ifdef`、`#ifndef`条件编译进行各平台个性化实现 参考文档： [官方文档（条件编译）](https://uniapp.dcloud.io/platform)  
